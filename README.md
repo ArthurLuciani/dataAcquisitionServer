@@ -14,5 +14,5 @@ The package consists of 3 scripts
 Note that the newer versions of *wserialserv* (>=2.1) and *photCountGUI* (>=2.2) requires the *serpy.py* module which can be found at this adress : 
 https://github.com/ArthurLuciani/serpy
 
-### multipletau
+### multipletau
 multipletau is from https://github.com/FCS-analysis/multipletau
