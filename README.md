@@ -9,3 +9,7 @@ This is an initial working version. Use at your own risk. Or just use it as an i
 ## Installation
 
 The package consists of 3 scripts
+
+### Serpy.py
+Note that the newer versions of *wserialserv* (>=2.1) and *photCountGUI* (>=2.2) requires the *serpy.py* module which can be found at this adress : 
+https://github.com/ArthurLuciani/serpy
