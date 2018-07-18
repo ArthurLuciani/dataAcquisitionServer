@@ -193,7 +193,7 @@ class Gui(QWidget):
         Then it saves it in an .npy file and finally it restarts the 
         timer.
         """
-        Ncyc = int(self.qle.text())
+        Ncyc = int(eval(self.qle.text()))
         print(Ncyc)
         self.stat_lbl.setText("Status : acquiring")
         self.stat_lbl.adjustSize()
