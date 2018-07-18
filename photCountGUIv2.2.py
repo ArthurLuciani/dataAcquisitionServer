@@ -170,9 +170,9 @@ class Gui(QWidget):
         Provides a guess of the time which the acquisition would 
         take.
         """
-        self.lbl2.setText("Estimated Time : "+str(int(int(text)*BUF*4e-6))+" s")
+        self.lbl2.setText("Estimated Time : "+str(int(eval(text)*BUF*4e-6))+" s")
         self.lbl2.adjustSize()
-        self.lbl3.setText("Weight of the acquisition : "+str(int(int(text)*BUF/1000))+" kB")
+        self.lbl3.setText("Weight of the acquisition : "+str(int(eval(text)*BUF/1000))+" kB")
         self.lbl3.adjustSize() 
         
     def pause(self, pressed):
